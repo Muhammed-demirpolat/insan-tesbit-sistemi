@@ -1,47 +1,48 @@
-🧠 İnsan Tespit Sistemi
+# 🧠 İnsan Tespit Sistemi
 
-Bu proje, YOLOv8 ve OpenCV kullanarak gerçek zamanlı insan tespiti yapan bir görüntü işleme sistemidir.
-Video, kamera veya görseller üzerinde insan tespiti yapabilir.
+Gerçek zamanlı insan tespiti! Bu proje, **YOLOv8** ve **OpenCV** kullanarak videolarda, kameradan alınan görüntülerde veya fotoğraflarda insanları hızlı ve doğru bir şekilde tespit eden bir görüntü işleme sistemi sunar.
 
-🚀 Özellikler
+## 🚀 Özellikler
 
-Gerçek zamanlı insan tespiti (kamera veya video dosyası üzerinden)
+- **Gerçek zamanlı insan tespiti:** Kamera veya video dosyası üzerinden çalışır.
+- **Otomatik işaretleme:** Tespit edilen kişileri belirgin dikdörtgen kutularla gösterir.
+- **Hızlı ve optimize algoritma:** Yüksek performans ve düşük gecikme.
+- **Kolay genişletilebilirlik:** Sadece insanları değil, başka nesneleri de tespit edecek şekilde kolayca uyarlanabilir.
 
-Tespit edilen kişileri dikdörtgen kutularla işaretler
+## 🧩 Gerekli Kütüphaneler
 
-Hızlı ve optimize çalışır
+Python ortamınıza aşağıdaki kütüphaneleri yükleyin:
 
-Kolayca başka nesneleri tespit edecek şekilde genişletilebilir
-
-🧩 Gerekli Kütüphaneler
-
-Aşağıdaki kütüphaneler Python ortamına kurulmalıdır:
-
+```bash
 pip install ultralytics
 pip install opencv-python
+```
 
+## ⚙️ Gereksinimler
 
-⚙️ Gereksinimler
+- Python 3.8 veya üzeri
+- İnternet bağlantısı (model ilk kez indirileceği zaman gerekli)
+- Kamera (gerçek zamanlı test için) veya video dosyası
 
-Python 3.8 veya üzeri
+## 🧠 Kullanılan Teknolojiler
 
-İnternet bağlantısı (modeli ilk kez indirirken gerekli)
+- **YOLOv8 (Ultralytics):** Nesne tespiti için son teknoloji derin öğrenme modeli
+- **OpenCV:** Görüntü işleme ve video yönetimi
+- **Python:** Projenin ana programlama dili
 
-Kamera (gerçek zamanlı test için) veya video dosyası
+## 📁 Proje Yapısı
 
-🧠 Kullanılan Teknolojiler
-
-YOLOv8 (Ultralytics) → Nesne tespiti için
-
-OpenCV → Görüntü işleme, video okuma/gösterme
-
-Python → Ana programlama dili
-
-
-📁 insan-tespit-sistemi
+```
+insan-tespit-sistemi
 │ 
 ├── main.py               # Ana çalışma dosyası
 ├── video.mp4             # Test videosu (isteğe bağlı)
 └── README.md             # Proje açıklaması
+```
 
-youtube den izleyin :  https://youtu.be/SBviMNmq9ec
+## 🎬 Tanıtım Videosu
+
+Projenin nasıl çalıştığını görmek için [YouTube videosunu izleyin](https://youtu.be/SBviMNmq9ec).
+
+---
+Daha fazla bilgi ve katkı için repoyu inceleyebilir, sorularınızı iletebilirsiniz!
