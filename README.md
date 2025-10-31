@@ -37,8 +37,9 @@ OpenCV → Görüntü işleme, video okuma/gösterme
 
 Python → Ana programlama dili
 
+
 📁 insan-tespit-sistemi
-│
+│ 
 ├── main.py               # Ana çalışma dosyası
 ├── video.mp4             # Test videosu (isteğe bağlı)
 └── README.md             # Proje açıklaması
