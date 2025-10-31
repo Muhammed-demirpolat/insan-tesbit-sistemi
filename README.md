@@ -37,6 +37,7 @@ insan-tespit-sistemi
 │ 
 ├── main.py               # Ana çalışma dosyası
 ├── video.mp4             # Test videosu (isteğe bağlı)
+├── COCO.names            # sınıflandırma dosyası 
 └── README.md             # Proje açıklaması
 ```
 
